@@ -236,6 +236,11 @@ h3 { font-size: 16px;}
     width: 100%;
     height: auto;
 }
+.size21 {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -256,8 +261,8 @@ h3 { font-size: 16px;}
 }
 .subtitle {
     position: absolute;
-    top: 120px;
-    left: 630px;
+    top: 420px;
+    left: 1100px;
     color: #777777;
 }
 .homelink {
@@ -494,4 +499,7 @@ left: 1150px;
 }
 #pooh2 p {
     font-size: 18px;
+}
+#picturesmile {
+    margin-left: 180px;
 }
