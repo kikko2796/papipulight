@@ -53,7 +53,7 @@ h3 { font-size: 16px;}
     float: left;
     background-color: lightskyblue;
     text-align: center;
-    margin: 0 30px 30px 200px;
+    margin: 0 30px 30px 230px;
     padding-top: 30px; 
     padding-bottom: 30px;
     position: relative;
@@ -82,19 +82,27 @@ h3 { font-size: 16px;}
 .introducepoohText p {
     font-size: 15px;
 }
+.introducepooh:hover {
+    background-color: deepskyblue;
+}
 
 .introducepappy {
     width: 450px;
     float: left;
     background-color: lightpink;
+    
     text-align: center;
     margin: 0 100px 30px 60px;
     padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
-    border-radius: 30px;
-    
+    border-radius: 30px;    
+
 }
+.introducepappy:hover {
+    background-color: hotpink;
+}
+
 .introducepappyText {
    /* float: left;
     margin-top: 100px;
@@ -250,7 +258,7 @@ h3 { font-size: 16px;}
     height: 680px;
     padding: 0 0 0;
     line-height: 0;
-   margin-left: 40px;
+   margin-left: 50px;
    
 }
 .picture ul li { 
@@ -264,6 +272,8 @@ h3 { font-size: 16px;}
     top: 420px;
     left: 1100px;
     color: #777777;
+    width: 200px;
+    height: 30px;
 }
 .homelink {
     position: absolute;
@@ -292,45 +302,87 @@ h3 { font-size: 16px;}
     margin-top: 10px;
     padding-left: 20px;
 }
+#enjoyposi {
+    margin-left: 200px;    
+}
+#enjoyposi2 {
+    margin-left: 40px;    
+}
 .enjoytext {
     position: absolute;
     top: 420px;
-    left: 510px;
+    left: 530px;
+    width: 280px;
+    height: 150px;
     color: #777777;
+    /*background-color: blueviolet;*/
 }
-.picturee {
-    margin-left: 40px;
-}
+
 .link {
-    float: left;
+    /*float: left;*/
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 20px;
 }
 .link p a {    
     color: #777777;
 }
+.link .btn a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #777777;
+    background-color: #f2f2e5;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #f2f2e5;
+    box-shadow: 1px 1px 0 #cccc99 inset;
+    text-shadow: 0px -1px 0 #666666;  
+}
+.link .btn a:hover {
+    opacity: 0.7;
+}
+.link .btn {
+    margin: 25px 0;
+}
+
+
 #link1 {
     float: left;
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: 20px;
 }
 #link1 p a {
     color: #777777;
+
 }
+#link1 .btn a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #777777;
+    background-color: #f2f2e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #f2f2e5;
+    box-shadow: 1px 1px 0 #cccc99 inset;
+    text-shadow: 0px -1px 0 #666666;  
+} 
+#link1 .btn a:hover {
+    opacity: 0.7;
+}
+#link1 .btn {
+    margin: 25px 0;
+}
+
 #papiposi {
     margin-left: 200px;
 }
 #poohposi {
     margin-left: 150px;
 }
-#enjoyposi {
-    margin-left: 200px;
-    
-}
+
 #other1 {
-    margin-left: 185px;
+    margin-left: 195px;
     /*background-color: seagreen;*/
     float: left;
 }
@@ -350,32 +402,36 @@ h3 { font-size: 16px;}
     color: #777777;
 }
 #other5 {
-   
+    position: absolute;
+    top: 370px;
+    left: 950px;
+
     width: 430px;
     height: 180px;
     text-align: center;
     line-height: 20px;
-    float: right;
+    /*float: right;
     position: relative;
     z-index: 1;
     margin-right: 20px;
-    /*background-color: purple;*/
+    background-color: purple;*/
 
 }
 
 #other5 p {
     font-size: 14px;
     color: #777777;
+    
 }
-#other3 {
+/*#other3 {
    
      float: left;
      position: absolute;
     top: 420px;
     left: 530px;
     z-index: 0;
-    /* background-color: palegreen;*/
- }
+    background-color: palegreen;
+ }*/
 
 #sleep8 {
     position: absolute;
@@ -474,12 +530,13 @@ h3 { font-size: 16px;}
 #floatboxC {
     width: 200px;
     height: auto;
-    float: right;
+    /*float: right;*/
     margin-right: 50px;
     position: absolute;
     top: 310px;
-    left: 1050px;
+    left: 1000px;
 }
+
 #pooh1 {
     width: 1200px;
     height: 700px;
@@ -501,5 +558,16 @@ left: 1150px;
     font-size: 18px;
 }
 #picturesmile {
-    margin-left: 180px;
+    margin-left: 200px;
+}
+#pooh3 p {
+    font-size: 16px;
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 1180px;
+    color: #777777;
+    text-align: center;
+    /*background-color: fuchsia;*/
 }
