@@ -157,34 +157,34 @@ h3 { font-size: 16px;}
 }
 
 .size1 {
-    width: 225px;
-    height: 250px;
+    width: 15%;
+    height: auto;
 }
 
 .size2 {
-    width: 168px;
-    height: 300px;
+    width: 15%;
+    height: auto;
 }
 
 .size3 {
-    width: 350px;
-    height: 197px;
+    width: 30%;
+    height: auto;
 }
 .size4 {
-    width: 221px;
-    height: 300px;
+    width: 20%;
+    height: auto;
 }
 .size5 {
-    width: 263px;
-    height: 350px;
+    width: 20%;
+    height: auto;
 }
 .size6 {
-    width: 400px;
-    height: 301px;
+    width: 30%;
+    height: auto;
 }
 .size7 {
-    width: 197px;
-    height: 350px;
+    width: 19%;
+    height: auto;
 }
 .size8 {
     width: 450px;
@@ -225,7 +225,7 @@ h3 { font-size: 16px;}
     height: auto;
 }
 .size17 {
-    width: 200;
+    width: 20%;
     height: auto;
 }
 .size18 {
@@ -248,10 +248,30 @@ h3 { font-size: 16px;}
     width: 100%;
     height: auto;
 }
-
-
-
-
+.size22 {
+    width: 30%;
+    height: auto;
+}
+.size23 {
+    width: 21%;
+    height: auto;
+}
+.size24 {
+    width: 10%;
+    height: auto;
+}
+.size25 {
+    width: 15%;
+    height: auto;
+}
+.size26 {
+    width: 65%;
+    height: auto;
+}
+.size27 {
+    width: 36%;
+    height: auto;
+}
 
 .picture {
     width: 1400px;
@@ -269,7 +289,7 @@ h3 { font-size: 16px;}
 }
 .subtitle {
     position: absolute;
-    top: 420px;
+    top: 450px;
     left: 1100px;
     color: #777777;
     width: 200px;
@@ -303,10 +323,10 @@ h3 { font-size: 16px;}
     padding-left: 20px;
 }
 #enjoyposi {
-    margin-left: 200px;    
+    margin-left: 250px;    
 }
 #enjoyposi2 {
-    margin-left: 40px;    
+    margin-left: 15px;    
 }
 .enjoytext {
     position: absolute;
@@ -378,32 +398,51 @@ h3 { font-size: 16px;}
     margin-left: 200px;
 }
 #poohposi {
-    margin-left: 150px;
+    margin-left: 160px;
+    width: 1200px;
+    height: 720px;
+    
+    /*background-color: gold;*/
 }
 
 #other1 {
-    margin-left: 195px;
+    margin-left: 210px;
     /*background-color: seagreen;*/
     float: left;
 }
 #other2 {
-    margin-left: 170px;
+    position: absolute;
+    top: 410px;
+    left: 160px;
+    /*margin-left: 140px;
     margin-top: 20px;
     float: left;
+    margin: 50px 10px 10px 170px;
     /*background-color: orangered;*/
+
+}
+#other3 {
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    /*margin-left: 550px;
+    margin-top: 20px;*/
 }
 
 #other4 {
-    width: 120px;
-    height: 180px;
-    margin: 180px 0 10px 0;
-    /*background-color: pink;*/
-    float: left;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    /*width: 120px;
+    height: 150px;
+    margin: 250px 10px 0 420px;
+    background-color: pink;
+    /*float: left;*/
     color: #777777;
 }
 #other5 {
     position: absolute;
-    top: 370px;
+    top: 390px;
     left: 950px;
 
     width: 430px;
@@ -436,7 +475,7 @@ h3 { font-size: 16px;}
 #sleep8 {
     position: absolute;
     top: 80px;
-    left: 195px;
+    left: 210px;
 }
 #byepapi {
     margin-left: 200px;
@@ -558,7 +597,10 @@ left: 1150px;
     font-size: 18px;
 }
 #picturesmile {
-    margin-left: 200px;
+    margin-left: 260px;
+}
+#picturesmile2 {
+    margin-left:    100px;
 }
 #pooh3 p {
     font-size: 16px;
